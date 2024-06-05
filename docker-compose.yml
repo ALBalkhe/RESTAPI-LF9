@@ -1,0 +1,7 @@
+services:
+  verandb:
+    build: .
+    image: verandb
+    restart: always
+    ports:
+      - "5000:5000"
